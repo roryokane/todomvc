@@ -175,7 +175,7 @@ header nav a:not(:last-child) {
 }
 
 .applist .label,
-p .label {
+.legend .label {
 	position: relative;
 	top: -3px;
 	font-size: 9px;
@@ -197,7 +197,18 @@ p .label {
 }
 
 .legend {
-	margin-top: 30px;
+	margin-top: 20px;
+	margin-left: 0;
+	border: 1px solid #C5C5C5;
+	padding: 10px;
+	list-style-type: none;
+}
+
+.legend li {
+	margin-bottom: 0.5em;
+}
+.legend li:last-child {
+	margin-bottom: 0;
 }
 
 .labs-example {
