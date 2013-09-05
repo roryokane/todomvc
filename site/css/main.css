@@ -170,13 +170,8 @@ header nav a:not(:last-child) {
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
-.applist .labs a {
+.applist .labs a, .labs-example {
 	color: #582C42;
-}
-
-.labs-example {
-	color: #582C42;
-	font-weight: bold;
 }
 
 .applist .label,
@@ -199,6 +194,14 @@ p .label {
 	-ms-columns: 2;
 	-o-columns: 2;
 	columns: 2;
+}
+
+.legend {
+	margin-top: 30px;
+}
+
+.labs-example {
+	font-weight: bold;
 }
 
 .collapsed {
